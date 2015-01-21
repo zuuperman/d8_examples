@@ -1,0 +1,9 @@
+# YML file to create menu links.
+
+# create a menu link for our settings form in the system settings section.
+d8_examples.settings_form:
+  title: Example settings
+  parent: system.admin_config_system
+  description: 'Manage example settings.'
+  route_name: d8_examples.settings_form
+  weight: 20

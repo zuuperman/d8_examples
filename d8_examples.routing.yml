@@ -1,0 +1,25 @@
+# List of all routes for this module.
+
+d8_examples.homepage:
+  path: 'home'
+  defaults:
+    _controller: '\Drupal\d8_examples\Controller\ExampleController:homepage'
+    _title: 'Homepage title'
+  requirements:
+    _permission: 'access content'
+
+d8_examples.example-form:
+  path: 'example-form'
+  defaults:
+    _form: '\Drupal\d8_examples\Form\ExampleForm'
+    _title: 'Example form'
+  requirements:
+    _permission: 'access content'
+
+d8_examples.settings_form:
+  path: 'admin/config/system/example'
+  defaults:
+    _form: '\Drupal\d8_examples\Form\SettingsForm'
+    _title: 'Example settings form'
+  requirements:
+    _permission: 'access administration pages'
