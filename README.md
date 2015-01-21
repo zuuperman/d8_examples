@@ -3,18 +3,18 @@ Module that contains examples of commonly used functionality.
 
 An overview of examples:
 
-### General
+## General
 
-## Normal menu callback
+### Normal menu callback
 - d8_examples.routing.yml
 - src/Controller/ExampleController.php
 
-## Building / validating / submitting / redirecting a form
+### Building / validating / submitting / redirecting a form
 - d8_examples.routing.yml
 - src/Controller/ExampleController.php
 - src/Form/ExampleForm.php
 
-## A system settings form
+### A system settings form
 - d8_examples.routing.yml
 - d8_examples.links.menu.yml
 - src/Form/SettingsForm.php
