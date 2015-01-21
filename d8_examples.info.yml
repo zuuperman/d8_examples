@@ -1,0 +1,4 @@
+type: module
+name: D8 examples module
+description: Examples of coding in D8
+core: 8.x
