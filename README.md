@@ -1,5 +1,6 @@
 # Drupal 8 examples
 Module that contains examples of commonly used functionality.
+For every item, the files to look at are listed.
 
 An overview of examples:
 
